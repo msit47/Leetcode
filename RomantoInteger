@@ -15,7 +15,7 @@ class Solution {
         {
             int currvalue = map.get(s.charAt(i));
             curmax = Math.max(currvalue,curmax);
-            ans = curmax < currvalue ? ans-currvalue : ans + currvalue;
+            ans = currvalue < curmax ? ans-currvalue : ans + currvalue;
         }
         return ans;
 
